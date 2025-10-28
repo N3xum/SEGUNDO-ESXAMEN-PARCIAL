@@ -1,3 +1,72 @@
+
+GUÍA DE EJECUCIÓN DEL BACKEND – PROYECTO TIENDA (LARAVEL API) - PETER CAMACHO CARDOZO
+Este proyecto corresponde al segundo examen parcial y consiste en una API desarrollada con Laravel para gestionar empleados de una tienda. A continuación se detallan los pasos para su instalación, configuración y uso.
+REQUISITOS
+•	PHP 8.x
+•	Composer
+•	Laravel 10.x
+•	MySQL (XAMPP)
+•	Postman o navegador para pruebas
+ESTRUCTURA DEL PROYECTO
+El backend está organizado en módulos:
+•	Modelos (app/Models/Empleado.php)
+•	Controladores (app/Http/Controllers/EmpleadoController.php)
+•	Rutas API (routes/api.php)
+•	Seeders y Migraciones (database/migrations, database/seeders)
+BASE DE DATOS
+Motor: MySQL
+Nombre de la base de datos: tienda_db
+Tabla principal: empleados
+CONFIGURACIÓN
+1.	configurar la conexión a la base de datos en .env:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=tienda_db
+DB_USERNAME=root
+DB_PASSWORD=
+
+2.	Ejecutar migraciones y seeders:
+php artisan migrate –seed
+
+
+3.	Ejecución de servido: php artisan serve
+
+
+ENDPOINTS DISPONIBLES:
+ GET - /API/EMPLEADOS  --LISTAR EMPLEADOS
+  POST - /API/EMPLEADOS  --- CREAR NUEVO EMPLEADO
+
+PRUEBAS
+Postman: para enviar peticiones GET y POST
+Navegador: para verificar respuestas en formato JSON
+REPOSITORIO
+Este proyecto fue subido a GitHub como parte del segundo examen parcial. Puedes consultarlo en el repositorio correspondiente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
