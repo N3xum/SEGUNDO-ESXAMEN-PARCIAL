@@ -42,7 +42,14 @@ Postman: para enviar peticiones GET y POST
 Navegador: para verificar respuestas en formato JSON
 REPOSITORIO
 Este proyecto fue subido a GitHub como parte del segundo examen parcial. Puedes consultarlo en el repositorio correspondiente.
-
+COMMITS TERMINADAS:
+1.	Proyecto Laravel funcional  subido ---COMPLETADO
+2.	Migración con estructura  correcta---COMPLETADO
+3.	Modelo con fillable---COMPLETADO
+4.	Seeder con ≥10 empleados---COMPLETADO
+5.	BD creada y probada---COMPLETADO
+6.	API REST funcional---COMPLETADO
+7.	Indicaciones básicas en  README---COMPLETADO
 
 
 
